@@ -1,4 +1,8 @@
 {
+  "imports": {
+    "discord": "npm:discord.js@14",
+    "$std/": "https://deno.land/std@0.212.0/"
+  },
   "tasks": {
     "dev": "deno run --watch main.ts"
   },
