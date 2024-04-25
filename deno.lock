@@ -2,6 +2,7 @@
   "version": "3",
   "packages": {
     "specifiers": {
+      "npm:discord.js": "npm:discord.js@14.14.1",
       "npm:discord.js@14": "npm:discord.js@14.14.1"
     },
     "npm": {
@@ -320,5 +321,10 @@
     "https://deno.land/std@0.211.0/path/windows/separator.ts": "2bbcc551f64810fb43252185bd1d33d66e0477d74bd52f03b89f5dc21a3dd486",
     "https://deno.land/std@0.211.0/path/windows/to_file_url.ts": "1cd63fd35ec8d1370feaa4752eccc4cc05ea5362a878be8dc7db733650995484",
     "https://deno.land/std@0.211.0/path/windows/to_namespaced_path.ts": "4ffa4fb6fae321448d5fe810b3ca741d84df4d7897e61ee29be961a6aac89a4c"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:discord.js@14"
+    ]
   }
 }
